@@ -20,6 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: var(--main-font);
+    background-color: #F1F1F1;
 }
 
 main{
