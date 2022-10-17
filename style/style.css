@@ -26,6 +26,7 @@ main{
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    height: 1325px;
     background-color: antiquewhite;
     color:rgba(255, 255, 255, 0.649);
     margin: 70px 15px;
@@ -35,7 +36,6 @@ main{
 .titulo{
     font-family: var(--title-font);
     color: white;
-    margin: 2.4rem 0;
     font-weight: 700;
     font-size: 2.4rem;
     text-transform: uppercase;
@@ -49,12 +49,18 @@ span{
     height: 48px ;
     padding: 0 4px;
     border-radius: 24px;
-    margin: 1.4rem 0;
     width: 147px;
     
 }
 img{
-    margin-top: 3rem;
+    width:fit-content;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 441px;
+    
 }
 
 span:hover{
@@ -65,21 +71,21 @@ span:hover{
 
 .bt1{
     color: var(--Bright-orange);
-    margin: 2rem 0 3rem 0;
+  
     
 }
 .bt2{
     color:var(--Dark-cyan) ;
-    margin: 2rem 0 3rem 0;
+
 }
 .bt3{
     color: var(--Very-dark-cyan);
-    margin: 2rem 0 3rem 0;
+    
 }
 
 
 div p{
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     font-size: 1rem;
     font-weight:bold;
 }
@@ -88,7 +94,7 @@ div p{
     background-color: var(--Bright-orange);
     max-height: 441px;
     flex-grow: 1;
-    padding: 0 3rem 0 2.5rem;
+    padding: 2rem 4.8rem 2rem 3.5rem;
     border-radius: 13px 13px 0 0;
 }
 .div2{
@@ -96,7 +102,7 @@ div p{
     background-color: var(--Dark-cyan);
     flex-grow: 1;
     max-height: 441px;
-    padding: 0 3rem 0 2.5rem;
+    padding: 2rem 4.8rem 2rem 3.5rem;
     
 }
 
@@ -105,7 +111,7 @@ div p{
     background-color: var(--Very-dark-cyan);
     flex-grow: 1;
     max-height: 441px;
-    padding: 0 3rem 0 2.5rem;
+    padding: 2rem 4.8rem 2rem 3.5rem;
     border-radius: 0 0 13px 13px;
 }
 
@@ -125,16 +131,26 @@ div p{
         width: 5rem;
     }
     div{
+        display: flex;
         min-height: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        
     }
-    .div1{border-radius: 13px 0 0 13px; padding: 0 5rem 0 3rem;}
-    .div2{padding: 0 5rem 0 3rem;}
-    .div3{border-radius: 0 13px 13px 0; padding: 0 5rem 0 3rem;}
+    .div1{border-radius: 13px 0 0 13px;
+        padding: 4rem 4rem 0 4rem;    
+    }
+    .div2{
+        padding: 4rem 4rem 0 4rem;    
+    }
+    .div3{border-radius: 0 13px 13px 0;
+        padding: 4rem 4rem 0 4rem;     
+    }
 
     .titulo{
         font-family: var(--title-font);
         color: white;
-        margin: 3rem 0;
+        margin: 2.5rem 0 2rem 0;
         font-weight: 700;
         font-size: 3rem;
         text-transform: uppercase;
@@ -161,17 +177,19 @@ div p{
     }
     .bt1{
         color: var(--Bright-orange);
-        margin: 45% 0 3rem 0;
+        margin: 5rem 0 4.2rem 0;
+
         
     }
     .bt2{
         color:var(--Dark-cyan);
-        margin: 45% 0 3rem 0;
+        margin: 5rem 0 4.2rem 0;
+   
 
     }
     .bt3{
-        color: var(--Very-dark-cyan);
-        margin: 45% 0 3rem 0;    
+        color: var(--Very-dark-cyan); 
+        margin: 5rem 0 4.2rem 0;   
     }
 
 }
