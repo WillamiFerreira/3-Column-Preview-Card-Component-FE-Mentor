@@ -67,6 +67,7 @@ span:hover{
     color: white;
     border: 3px solid white;
     background-color: rgba(240, 248, 255, 0);
+    
 }
 
 .bt1{
@@ -120,7 +121,7 @@ div p{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         max-width: 1177px;
-        height: 640px;
+        max-height: 500px;
         background-color: antiquewhite;
         color:rgba(255, 255, 255, 0.649);
         margin: 70px 15px;
@@ -128,7 +129,7 @@ div p{
     
     } 
     img{
-        width: 5rem;
+        width: 4rem;
     }
     div{
         display: flex;
@@ -138,21 +139,21 @@ div p{
         
     }
     .div1{border-radius: 13px 0 0 13px;
-        padding: 4rem 4rem 0 4rem;    
+        padding: 2rem 4rem 2rem 4rem;    
     }
     .div2{
-        padding: 4rem 4rem 0 4rem;    
+        padding: 2rem 4rem 2rem 4rem;    
     }
     .div3{border-radius: 0 13px 13px 0;
-        padding: 4rem 4rem 0 4rem;     
+        padding: 2rem 4.3rem 2rem 4rem;   
     }
 
     .titulo{
         font-family: var(--title-font);
         color: white;
-        margin: 2.5rem 0 2rem 0;
+        margin: 0rem 0 0rem 0;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-transform: uppercase;
     }
 
@@ -163,33 +164,31 @@ div p{
         justify-content: center;
         background-color: white;
         width: fit-content;
-        height: 60px;
         padding: 0 2.5rem;
         border-radius: 60px;
-        margin: 1.4rem 0;
     
         
     }
     div p{
         line-height: 1.8rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight:bold;
     }
     .bt1{
         color: var(--Bright-orange);
-        margin: 5rem 0 4.2rem 0;
+        margin: 4rem 0 0rem 0;
 
         
     }
     .bt2{
         color:var(--Dark-cyan);
-        margin: 5rem 0 4.2rem 0;
+        margin: 4rem 0 0rem 0;
    
 
     }
     .bt3{
         color: var(--Very-dark-cyan); 
-        margin: 5rem 0 4.2rem 0;   
+        margin: 4rem 0 0rem 0; 
     }
 
 }
